@@ -1,0 +1,38 @@
+.nav-body{
+    background-color: rgb(63, 63, 220);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    padding: 16px 0;
+}
+#navigationBar{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    gap: 4;
+}
+
+#navigationBar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: small;
+
+}
+#navigationBar h1 {
+    color: white;   
+}
+
+#navigationBar a :hover {
+    color: red;
+}
+
+body {
+    margin: 0;
+}
